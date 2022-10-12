@@ -1,0 +1,209 @@
+header {
+    background-color: rgb(35, 196, 196);
+    padding-left: 1vw;
+    border-radius: 1vw;
+    border: solid rgb(227, 244, 251) 0.25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.partb {
+    margin-top: 2%;
+}
+
+.partb a {
+    text-decoration: none;
+    color: white;
+    margin-left: 3vw;
+    font-size: 2vw;
+}
+
+.profile_img {
+    padding-top: 1vw;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 2.85vw;
+    font-weight: 800;
+    margin-left: 1vw;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.content a {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 1vw;
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+}
+
+.dd {
+    margin-right: 0.5vw;
+}
+
+.dbtn {
+    padding: 0%;
+    transform: rotate(90deg);
+    font-size: 1.5vw;
+    font-weight: 300;
+}
+
+.logo1 {
+    color: darkred;
+}
+
+main {
+    display: flex;
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 10%;
+}
+
+.about {
+    width: 45%;
+    text-align: center;
+    font-size: 1.5vw;
+    padding-top: 2vw;
+    padding-left: 10%;
+}
+
+.t1 {
+    font-weight: 700;
+    margin: 0%;
+}
+
+.t2 {
+    font-size: 3vw;
+    font-weight: 900;
+    color: purple;
+    margin: 0%;
+}
+
+.t2:hover {
+    color: palevioletred;
+}
+
+.t3 {
+    color: rgb(65, 40, 2);
+    font-weight: 700;
+    font-family: cursive;
+    font-size: 1.25vw;
+}
+
+.ai {
+    color: rgb(13, 93, 231);
+}
+
+.ai:hover {
+    color: aquamarine;
+}
+
+.profile_picture {
+    border-radius: 100%;
+    margin-left: 5vw;
+}
+
+.headings {
+    margin: 10%;
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: 5%;
+}
+
+.headings h1 {
+    font-size: 4vw;
+    font-family: cursive;
+    color: rgb(35, 196, 196);
+}
+
+.certificates {
+    text-decoration: none;
+    color: black;
+}
+
+.certificates:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.info {
+    width: 30%;
+    border: solid black 0.25vw;
+    margin: 2vw;
+    border-radius: 1vw;
+}
+
+.font {
+    font-size: 1.5vw;
+    font-style: bold;
+}
+
+#skills {
+    margin-left: 8vw;
+    width: 35%;
+}
+
+ul {
+    text-align: left;
+    font-size: 1.5vw;
+}
+
+footer {
+    background-color: rgb(35, 196, 196);
+    padding-left: 1vw;
+    border-radius: 1vw;
+    border: solid rgb(227, 244, 251) 0.25vw;
+    padding: 1.5vw;
+    text-align: center;
+}
+
+.contact {
+    margin: 2%;
+}
+
+.cv {
+    text-align: center;
+    padding: 1vw;
+    color: black;
+    margin-bottom: 2%;
+}
+
+.button {
+    padding: 1vw;
+    width: 20vw;
+    font-size: 2vw;
+    font-weight: 700;
+    background-color: orange;
+    border-radius: 1vw;
+    border: solid black 0.25vw;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
